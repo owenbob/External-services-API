@@ -9,6 +9,7 @@ install:
 # command to run tests
 before_script:
   - cd project/
+  - python manage.py migrate
 
 script: 
   - python manage.py test
