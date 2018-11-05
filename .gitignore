@@ -106,3 +106,4 @@ venv.bak/
 project/db.sqlite3-journal
 project/api/migrations/
 .DS_Store
+docker.env
